@@ -1,0 +1,377 @@
+:root{
+    --LimeGreen: hsl(163, 72%, 41%);
+    --BrightRed: hsl(356, 69%, 56%);
+    --Fb:hsl(208, 92%, 53%);
+    --Twitter: hsl(203, 89%, 53%);
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 700px){
+
+     /* Toggle Switch */
+
+     .toggle{
+        margin-top: 24px;
+        margin-bottom: 24px;
+        color: hsl(228, 34%, 66%);
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .switch{
+        display: inline-block;
+        height: 20px;
+        width: 40px;
+        background-image:linear-gradient(to Right, hsl(210, 78%, 56%) , hsl(146, 68%, 55%));
+        border-radius: 20px;
+        position: relative;
+        left: 85%;
+        top: -45px;
+    }  
+    .switch input{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .slider {
+        position: absolute;
+        border-radius: 20px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 16px;
+        width: 16px;
+        left: 2px;
+        top: 2px;
+        border-radius: 50%;
+        background-color: hsl(230, 17%, 14%);
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    input:checked + .slider {
+        background-color: hsl(227, 47%, 96%);
+    }
+
+    input:checked + .slider:before {
+        -webkit-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        transform: translateX(20px);
+        background-color: hsl(227, 47%, 96%);
+        transition: .4s;
+      }
+
+      /* Toggle Switch end */
+    
+    header{
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 5%;
+        height: 25vh;
+        background-color: hsl(232, 19%, 15%);
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .heading{
+        font-size: 25px;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        
+    }
+
+    header h5{
+        color: hsl(228, 34%, 66%);
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 18px;
+        font-family: 'Inter', sans-serif;
+    }
+    .line-mobile{
+        background-color: hsl(228, 34%, 66%);
+        border: none;
+    }
+    body{
+        
+        background-color: hsl(230, 17%, 14%);
+        font-family: 'Inter', sans-serif;
+        color: white;
+    }
+
+    .today{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        top: -5vh;
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+    .fbFollowers,.twFollowers, .igFollowers, .ytSubs{
+        height: 250px;
+        width: 100%;
+        border-radius: 5px;
+        border-color: white;
+        background-color: hsl(228, 28%, 20%);
+        margin-bottom: 30px;
+        
+        text-align: center;
+    }
+
+    .name{
+        margin-top: 25px;
+        color: hsl(228, 34%, 66%);
+        font-size: small;
+        font-weight: bold;
+        display: block;
+        justify-content: center;
+    }
+    .fblogo, .twlogo, .iglogo, .ytlogo{
+        position: relative;
+        top: 5px;
+        margin-right: 5px;
+
+    }
+
+    .count{
+        font-size: 70px;
+        font-weight: 900;
+    }
+
+    .fol{
+        text-transform: uppercase;
+        color: hsl(228, 34%, 66%);
+        letter-spacing: 7px;
+        font-weight: 400;
+    }
+    .topborder{
+        position: relative;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 4px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;     
+    }
+    #fb .topborder{
+        background-color: hsl(208, 92%, 53%);
+    }
+    #tw .topborder{
+        background-color: hsl(203, 89%, 53%);
+    }
+    #ig .topborder{
+        background: linear-gradient(to Right, hsl(37, 97%, 70%),  hsl(329, 70%, 58%) );
+    }
+    #yt .topborder{
+        background-color:  hsl(348, 97%, 39%);
+    }
+    .ratingup, .ratingdown{
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 12.8px;
+        
+    }
+
+    .ratingup span{
+        color: var(--LimeGreen);
+        margin-left: 4px;
+    }
+
+    .ratingdown span{
+        color: var(--BrightRed);
+        margin-left: 4px;
+    }
+
+    .overview-today{
+        padding-left: 5%;
+        margin-bottom: 30px;
+        position: relative;
+        top: -4vh;
+        font-weight: bold;
+    }
+
+    .overview{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+        position: relative;
+        top: -2vh;
+    }
+
+    .pvfb,.lifb,.liig,.pvig,.retweet,.litw,.liyt,.tvyt{
+        background-color: hsl(228, 28%, 20%);
+        margin-bottom: 30px;
+        height: 12.5vh;
+        border-radius: 5px;
+        padding: 8%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .views-likes{
+        font-weight: bold;
+        color: hsl(228, 34%, 66%);
+    }
+
+    .views{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ratings{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .new-ratingup, .new-ratingdown{
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 15.8px;
+        
+    }
+
+    .new-ratingup span{
+        color: var(--LimeGreen);
+        margin-left: 4px;
+    }
+
+    .new-ratingdown span{
+        color: var(--BrightRed);
+        margin-left: 4px;
+    }
+
+
+    .new-count{
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* LIGHT MODE */
+
+
+    body.light{
+        background-color : white;
+    }
+
+    body.light .name{
+        color: hsl(228, 12%, 44%);
+    }
+
+    body.light header{
+        background-color: hsl(225, 100%, 98%);
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        overflow-y: visible;     
+    }
+
+    body.light .heading{
+        color: hsl(232, 19%, 15%);
+    }
+
+    body.light .fbFollowers{
+        background-color: hsl(227, 47%, 96%);
+    }
+    body.light .twFollowers{
+        background-color: hsl(227, 47%, 96%);
+    }
+    body.light  .igFollowers{
+        background-color: hsl(227, 47%, 96%);
+    }
+    body.light .ytSubs{
+        background-color: hsl(227, 47%, 96%);
+    }
+    body.light .count{
+        color: hsl(230, 17%, 14%);
+    }
+    body.light header h5{
+        color: hsl(228, 12%, 44%);
+        font-weight: bold;
+    }
+    body.light .toggle{
+        color: hsl(228, 12%, 44%);
+    }
+
+    body.light .slider{
+        background-color: hsl(228, 12%, 44%);
+    }
+
+    body.light .overview-today{
+        color: hsl(228, 12%, 44%);
+        font-weight: bold;
+    }
+
+    body.light .views-likes{
+        color:  hsl(228, 12%, 44%);
+    }
+
+    body.light .new-count{
+        color: hsl(230, 17%, 14%);
+    }
+
+    body.light .pvfb{
+        background-color: hsl(227, 47%, 96%);
+    }
+
+    body.light .lifb{
+        background-color: hsl(227, 47%, 96%);
+    }
+
+    body.light .pvig{
+        background-color: hsl(227, 47%, 96%);
+    }
+
+    body.light .liig{
+        background-color: hsl(227, 47%, 96%);
+    }
+
+    body.light .retweet{
+        background-color: hsl(227, 47%, 96%);
+    }
+
+    body.light .litw{
+        background-color: hsl(227, 47%, 96%);
+    }
+
+    body.light .liyt{
+        background-color: hsl(227, 47%, 96%);
+    }
+
+    body.light .tvyt{
+        background-color: hsl(227, 47%, 96%);
+    }
+}   

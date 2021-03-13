@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<header>
+
+  <h1 class="heading">Social Media Dashboard</h1>
+  <h5>Total Followers: 23,004</h5>
+
+    <hr class="line-mobile" size="1px" width="100%" >
+
+    <p class="toggle" > Dark Mode  </p>
+
+      <label class="switch" for="btn" >
+      <input type="checkbox" id="btn">
+      <span class="slider"></span>
+
+    </label>
+    
+    
+    
+
+</header>
+
+
+<div class="today">
+  <div class="fbFollowers" id="fb">
+    <div class="topborder"></div>
+    <p class="name"> <img src="images/icon-facebook.svg" class="fblogo"> @nathanf</p> <br>
+    <p class="count">1987</p> 
+    <p class="fol">Followers </p><br>
+    <div class="ratingup"><img src="images/icon-up.svg" ><span> 12 Today</span> </div>
+  </div>
+
+  <div class="twFollowers" id="tw">
+    <div class="topborder"></div>
+    <p class="name"> <img src="images/icon-twitter.svg" class="twlogo"> @nathanf</p> <br>
+    <p class="count">1044</p>
+    <p class="fol">Followers </p><br>
+    <div class="ratingup"> <img src="images/icon-up.svg" ><span> 99 Today</span> </div>
+  </div>
+
+  <div class="igFollowers" id="ig">
+    <div class="topborder"></div>
+    <p class="name"> <img src="images/icon-instagram.svg" class="iglogo"> @realnathanf</p> <br>
+    <p class="count"> 11k</p>
+    <p class="fol">Followers </p><br>
+    <div class="ratingup"><img src="images/icon-up.svg" ><span> 1099 Today</span> </div>
+  </div>
+
+  <div class="ytSubs" id="yt">
+    <div class="topborder"></div>
+    <p class ="name"> <img src="images/icon-youtube.svg" class="ytlogo"> Nathan F.</p> <br>
+    <p class="count"> 8239</p>
+    <p class="fol">Subscribers</p> <br>
+    <div class="ratingdown"><img src="images/icon-down.svg" > <span> 144 Today </span></div>
+  </div>
+
+</div>
+
+
+  <h2 class="overview-today"  >Overview - Today</h2>
+
+  <div class="overview">
+
+    <div class="pvfb">
+
+      <div class="views">
+      <p class="views-likes"> Page Views </p> 
+      <img src="images/icon-facebook.svg" class="fblogo">
+      </div>
+
+      <div class="ratings">
+      <p class="new-count">  87 </p>
+      <p class="new-ratingup"><img src="images/icon-up.svg" ><span> 3% </span></p>
+      </div>
+
+
+    </div>
+
+    <div class="lifb">
+
+      <div class="views">
+        <p class="views-likes">  Likes </p> 
+        <img src="images/icon-facebook.svg" class="fblogo">
+      </div>
+      
+      <div class="ratings">
+        <p class="new-count">  52 </p>
+        <p class="new-ratingdown"><img src="images/icon-down.svg" ><span> 2% </span></p>
+      </div>
+
+    </div>
+
+    <div class="liig">
+      <div class="views">
+        <p class="views-likes">  Likes </p>
+        <img src="images/icon-instagram.svg" class="iglogo">
+      </div>
+
+      <div class="ratings">
+        <p class="new-count"> 5462 </p>
+        <p class="new-ratingup"> <img src="images/icon-up.svg" ><span>  2257%  </span></p>
+      </div>
+
+    </div>
+
+    <div class="pvig">
+
+      <div class="views">
+        <p class="views-likes"> Profile Views </p>
+        <img src="images/icon-instagram.svg" class="iglogo">
+      </div>
+
+      <div class="ratings">
+        <p class="new-count"> 52k </p>
+        <p class="new-ratingup"> <img src="images/icon-up.svg" ><span>  1375%  </span></p>
+      </div>
+
+    </div>
+
+    <div class="retweet">
+
+      <div class="views">
+        <p class="views-likes"> Retweets </p>
+        <img src="images/icon-twitter.svg" class="twlogo">
+      </div>
+
+      <div class="ratings">
+        <p class="new-count"> 117 </p>
+        <p class="new-ratingup"> <img src="images/icon-up.svg" ><span>  303%  </span></p>
+      </div>
+      
+    </div>
+
+    <div class="litw">
+
+      <div class="views">
+        <p class="views-likes"> Likes </p>
+        <img src="images/icon-twitter.svg" class="twlogo">
+      </div>
+
+      <div class="ratings">
+        <p class="new-count"> 507 </p>
+        <p class="new-ratingup"> <img src="images/icon-up.svg" ><span>  553%  </span></p>
+      </div>
+    
+   </div>
+
+    <div class="liyt">
+
+      <div class="views">
+        <p class="views-likes"> Likes </p>
+        <img src="images/icon-youtube.svg" class="ytlogo">
+      </div>
+
+      <div class="ratings">
+        <p class="new-count"> 107 </p>
+        <p class="new-ratingdown"> <img src="images/icon-down.svg" ><span>  19%  </span></p>
+      </div>
+
+    </div>
+
+    <div class="tvyt">
+
+      <div class="views">
+        <p class="views-likes"> Total Views </p>
+        <img src="images/icon-youtube.svg" class="ytlogo">
+      </div>
+
+      <div class="ratings">
+        <p class="new-count"> 1407 </p>
+        <p class="new-ratingdown"> <img src="images/icon-down.svg" ><span>  12%  </span></p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
