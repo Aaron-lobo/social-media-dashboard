@@ -23,7 +23,7 @@
         color: hsl(228, 34%, 66%);
         font-size: medium;
         font-weight: bold;
-        transition: .8s
+        transition: .8s;
     }
 
     .switch{
@@ -87,6 +87,7 @@
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
         transition: .8s;
+
     }
     .heading{
         font-size: 25px;
@@ -144,6 +145,7 @@
         font-weight: bold;
         display: block;
         justify-content: center;
+        transition: .8s;
     }
     .fblogo, .twlogo, .iglogo, .ytlogo{
         position: relative;
@@ -212,6 +214,7 @@
         position: relative;
         top: -4vh;
         font-weight: bold;
+        transition: .8s;
     }
 
     .overview{
@@ -239,6 +242,7 @@
     .views-likes{
         font-weight: bold;
         color: hsl(228, 34%, 66%);
+        transition: .8s;
     }
 
     .views{
@@ -275,6 +279,7 @@
     .new-count{
         font-size: 40px;
         font-weight: 900;
+        transition: .8s;
     }
 
 }   
