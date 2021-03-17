@@ -133,7 +133,7 @@
         border-color: white;
         background-color: hsl(228, 28%, 20%);
         margin-bottom: 30px;
-        
+        transition: .8s;
         text-align: center;
     }
 
