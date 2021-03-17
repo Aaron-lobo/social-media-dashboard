@@ -277,97 +277,97 @@
         font-weight: 900;
     }
 
-    /* LIGHT MODE */
-
-
-    body.light{
-        background-color : white;
-    }
-
-    body.light .name{
-        color: hsl(228, 12%, 44%);
-    }
-
-    body.light header{
-        background-color: hsl(225, 100%, 98%);
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-        overflow-y: visible;     
-    }
-
-    body.light .heading{
-        color: hsl(232, 19%, 15%);
-    }
-
-    body.light .fbFollowers{
-        background-color: hsl(227, 47%, 96%);
-    }
-    body.light .twFollowers{
-        background-color: hsl(227, 47%, 96%);
-    }
-    body.light  .igFollowers{
-        background-color: hsl(227, 47%, 96%);
-    }
-    body.light .ytSubs{
-        background-color: hsl(227, 47%, 96%);
-    }
-    body.light .count{
-        color: hsl(230, 17%, 14%);
-    }
-    body.light header h5{
-        color: hsl(228, 12%, 44%);
-        font-weight: bold;
-    }
-    body.light .toggle{
-        color: hsl(228, 12%, 44%);
-    }
-
-    body.light .slider{
-        background-color: hsl(228, 12%, 44%);
-    }
-
-    body.light .overview-today{
-        color: hsl(228, 12%, 44%);
-        font-weight: bold;
-    }
-
-    body.light .views-likes{
-        color:  hsl(228, 12%, 44%);
-    }
-
-    body.light .new-count{
-        color: hsl(230, 17%, 14%);
-    }
-
-    body.light .pvfb{
-        background-color: hsl(227, 47%, 96%);
-    }
-
-    body.light .lifb{
-        background-color: hsl(227, 47%, 96%);
-    }
-
-    body.light .pvig{
-        background-color: hsl(227, 47%, 96%);
-    }
-
-    body.light .liig{
-        background-color: hsl(227, 47%, 96%);
-    }
-
-    body.light .retweet{
-        background-color: hsl(227, 47%, 96%);
-    }
-
-    body.light .litw{
-        background-color: hsl(227, 47%, 96%);
-    }
-
-    body.light .liyt{
-        background-color: hsl(227, 47%, 96%);
-    }
-
-    body.light .tvyt{
-        background-color: hsl(227, 47%, 96%);
-    }
 }   
+
+/* LIGHT MODE */
+
+body.light{
+    background-color : white;
+}
+
+body.light .name{
+    color: hsl(228, 12%, 44%);
+}
+
+body.light header{
+    background-color: hsl(225, 100%, 98%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow-y: visible;     
+}
+
+body.light .heading{
+    color: hsl(232, 19%, 15%);
+}
+
+body.light .fbFollowers{
+    background-color: hsl(227, 47%, 96%);
+}
+body.light .twFollowers{
+    background-color: hsl(227, 47%, 96%);
+}
+body.light  .igFollowers{
+    background-color: hsl(227, 47%, 96%);
+}
+body.light .ytSubs{
+    background-color: hsl(227, 47%, 96%);
+}
+body.light .count{
+    color: hsl(230, 17%, 14%);
+}
+body.light header h5{
+    color: hsl(228, 12%, 44%);
+    font-weight: bold;
+}
+body.light .toggle{
+    color: hsl(228, 12%, 44%);
+}
+
+body.light .slider{
+    background-color: hsl(228, 12%, 44%);
+}
+
+body.light .overview-today{
+    color: hsl(228, 12%, 44%);
+    font-weight: bold;
+}
+
+body.light .views-likes{
+    color:  hsl(228, 12%, 44%);
+}
+
+body.light .new-count{
+    color: hsl(230, 17%, 14%);
+}
+
+body.light .pvfb{
+    background-color: hsl(227, 47%, 96%);
+}
+
+body.light .lifb{
+    background-color: hsl(227, 47%, 96%);
+}
+
+body.light .pvig{
+    background-color: hsl(227, 47%, 96%);
+}
+
+body.light .liig{
+    background-color: hsl(227, 47%, 96%);
+}
+
+body.light .retweet{
+    background-color: hsl(227, 47%, 96%);
+}
+
+body.light .litw{
+    background-color: hsl(227, 47%, 96%);
+}
+
+body.light .liyt{
+    background-color: hsl(227, 47%, 96%);
+}
+
+body.light .tvyt{
+    background-color: hsl(227, 47%, 96%);
+}
