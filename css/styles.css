@@ -284,6 +284,289 @@
 
 }   
 
+
+@media screen and (min-width: 701px){
+     /* Toggle Switch */
+
+     .toggle{
+        margin-top: 24px;
+        margin-bottom: 24px;
+        color: hsl(228, 34%, 66%);
+        font-size: medium;
+        font-weight: bold;
+        transition: .8s;
+        position: relative;
+        left: 82%;
+        top: -35%;
+    }
+
+    .switch{
+        display: inline-block;
+        height: 20px;
+        width: 40px;
+        background-image:linear-gradient(to Right, hsl(210, 78%, 56%) , hsl(146, 68%, 55%));
+        border-radius: 20px;
+        position: relative;
+        left: 92%;
+        top: -60%;
+    }  
+    .switch input{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .slider {
+        position: absolute;
+        border-radius: 20px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 16px;
+        width: 16px;
+        left: 2px;
+        top: 2px;
+        border-radius: 50%;
+        background-color: hsl(230, 17%, 14%);
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    input:checked + .slider {
+        background-color: hsl(227, 47%, 96%);
+    }
+
+    input:checked + .slider:before {
+        -webkit-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        transform: translateX(20px);
+        background-color: hsl(227, 47%, 96%);
+        transition: .4s;
+      }
+
+      /* Toggle Switch end */
+      .line-mobile{
+          display: none;
+      }
+
+      header{
+        padding-right: 12%;
+        padding-left: 12%;
+        padding-top: 2%;
+        height: 25vh;
+        background-color: hsl(232, 19%, 15%);
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        transition: .8s;
+
+    }
+    .heading{
+        font-size: 25px;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        transition: .8s
+        
+    }
+    header h5{
+        color: hsl(228, 34%, 66%);
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 18px;
+        font-family: 'Inter', sans-serif;
+        transition: .8s
+    }
+    .line-mobile{
+        background-color: hsl(228, 34%, 66%);
+        border: none;
+    }
+    body{
+        
+        background-color: hsl(230, 17%, 14%);
+        font-family: 'Inter', sans-serif;
+        color: white;
+        transition: .8s;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+
+    .today{
+        position: relative;
+        top: -15vh;
+        display: grid;
+        grid-template-columns: repeat(4 , 3fr);
+        margin-left: 12%;
+        margin-right: 12%;
+        grid-gap: 3%;
+
+    }
+    .fbFollowers,.twFollowers, .igFollowers, .ytSubs{
+        height: 225px;
+        width: 100%;
+        margin-right: 4%;
+        border-radius: 5px;
+        border-color: white;
+        background-color: hsl(228, 28%, 20%);
+        margin-bottom: 30px;
+        transition: .8s;
+        text-align: center;
+    }
+
+    .name{
+        margin-top: 25px;
+        color: hsl(228, 34%, 66%);
+        font-size: small;
+        font-weight: bold;
+        display: block;
+        justify-content: center;
+        transition: .8s;
+    }
+    .fblogo, .twlogo, .iglogo, .ytlogo{
+        position: relative;
+        top: 5px;
+        margin-right: 5px;
+
+    }
+
+    .count{
+        font-size: 70px;
+        font-weight: 900;
+        transition: .8s
+    }
+
+    .fol{
+        text-transform: uppercase;
+        color: hsl(228, 34%, 66%);
+        letter-spacing: 7px;
+        font-weight: 400;
+    }
+
+    .topborder{
+        position: relative;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 4px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;     
+    }
+    #fb .topborder{
+        background-color: hsl(208, 92%, 53%);
+    }
+    #tw .topborder{
+        background-color: hsl(203, 89%, 53%);
+    }
+    #ig .topborder{
+        background: linear-gradient(to Right, hsl(37, 97%, 70%),  hsl(329, 70%, 58%) );
+    }
+    #yt .topborder{
+        background-color:  hsl(348, 97%, 39%);
+    }
+    .ratingup, .ratingdown{
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 12.8px;
+        
+    }
+
+    .ratingup span{
+        color: var(--LimeGreen);
+        margin-left: 4px;
+    }
+
+    .ratingdown span{
+        color: var(--BrightRed);
+        margin-left: 4px;
+    }
+
+    .overview-today{
+        padding-left: 12%;
+        margin-bottom: 30px;
+        position: relative;
+        top: -12vh;
+        font-weight: bold;
+        transition: .8s;
+    }
+
+    .overview{
+        display: grid;
+        grid-template-columns: repeat(4, 3fr);
+        grid-gap: 3%;
+        padding-left: 12%;
+        padding-right: 12%;
+        position: relative;
+        top: -14vh;
+    }
+
+    .pvfb,.lifb,.liig,.pvig,.retweet,.litw,.liyt,.tvyt{
+        background-color: hsl(228, 28%, 20%);
+        margin-bottom: 30px;
+        margin-right: 2%;
+        height: 10vh;
+        border-radius: 5px;
+        padding: 8%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: .8s;
+
+    }
+
+    .views-likes{
+        font-weight: bold;
+        color: hsl(228, 34%, 66%);
+        transition: .8s;
+    }
+
+    .views{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ratings{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .new-ratingup, .new-ratingdown{
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 15.8px;
+        
+    }
+
+    .new-ratingup span{
+        color: var(--LimeGreen);
+        margin-left: 4px;
+    }
+
+    .new-ratingdown span{
+        color: var(--BrightRed);
+        margin-left: 4px;
+    }
+
+
+    .new-count{
+        font-size: 40px;
+        font-weight: 900;
+        transition: .8s;
+    }
+}
+
+
 /* LIGHT MODE */
 
 body.light{
